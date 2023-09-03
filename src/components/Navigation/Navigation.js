@@ -8,7 +8,7 @@ import { Button, Box, Flex, Container } from '@chakra-ui/react';
 const Navigation = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
   return (
-    <Box as="header" w="100%" bgGradient="linear(to top, #373b44, #4286f4)">
+    <Box as="header" w="100%" bgGradient="linear(to top, #fff, #4286f4)">
       <Container
         pl="10px"
         pr="10px"
